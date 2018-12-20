@@ -1,0 +1,10 @@
+Metrics/LineLength:
+  Max: 150
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'test/test_helper.rb'
