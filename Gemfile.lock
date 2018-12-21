@@ -64,6 +64,8 @@ GEM
     ffi (1.9.23-x86-mingw32)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    hash_mapper (0.2.3)
+      activesupport (>= 4)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.1)
@@ -204,6 +206,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.7)
   byebug
   coffee-rails (~> 4.2)
+  hash_mapper
   jbuilder (~> 2.5)
   jquery-rails
   minitest
