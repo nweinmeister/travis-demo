@@ -21,4 +21,6 @@
 .byebug_history
 
 # Ignore rubocop coverage files
-/converage/*
+/coverage/*
+/coverage/.resultset.json
+/coverage.data
