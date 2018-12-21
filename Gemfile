@@ -41,7 +41,13 @@ gem 'bootstrap-sass', '~> 3.3.7'
 # Use postgres
 gem 'pg', '~> 0.18'
 
+gem 'minitest'
+gem 'minitest-rails'
+gem 'minitest-spec-rails'
+gem 'mocha'
 gem 'rubocop'
+gem 'simplecov', require: false
+gem 'simplecov-rcov', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
