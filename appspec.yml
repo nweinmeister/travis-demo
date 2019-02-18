@@ -4,7 +4,5 @@ files:
   - source: ./
     destination: /home/ubuntu/travis-demo
 hooks:
-  AfterInstall: 
-    - location: scripts/after_install.sh
   ApplicationStart: 
     - location: scripts/application_start.sh
