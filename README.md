@@ -1,3 +1,5 @@
+Tests travis CI
+
 # Blank Rails App
 
 1. Clone repo
