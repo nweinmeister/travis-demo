@@ -39,7 +39,9 @@ gem 'autoprefixer-rails'
 # Bootstrap sass
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use postgres
-gem 'pg', '~> 0.18'
+# gem 'pg'
+
+gem "passenger"
 
 gem 'hash_mapper'
 gem 'minitest'
