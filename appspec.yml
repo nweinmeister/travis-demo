@@ -3,3 +3,6 @@ os: linux
 files:
   - source: ./
     destination: /home/ubuntu/travis-demo
+hooks:
+  - AfterInstall: ./after_install.sh
+  - ApplicationStart: ./application_start.sh
